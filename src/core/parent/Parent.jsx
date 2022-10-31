@@ -57,9 +57,7 @@ const ParentApp = (props) => {
         // employee_salary: {employee_salary},
         // employee_age: {employee_age}
       })
-      .then((response) => {
-        console.log(response);
-      });
+      
     //     navigator.geolocation.getCurrentPosition((position)=>{
     //         const TimeStamp = position.timestamp
     //         const Time = new Date(TimeStamp).toLocaleTimeString()
@@ -98,7 +96,6 @@ const ParentApp = (props) => {
           {" "}
           Add a child
         </button>
-      {console.log(data.childname)}
       <h1 className="where">Where is {data.childname} ?</h1>
       <div className="card">
         <h2>Current Location</h2>

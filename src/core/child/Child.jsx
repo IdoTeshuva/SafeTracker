@@ -15,7 +15,6 @@ const [activated] = useState(true)
             const lat = latOrigin.toString().slice(0,7)
             const long = longOrigin.toString().slice(0,7)
 
-            console.log(lat, long)
 
             if ((lat === "32.0872" || "32.0871") && (long === "34.8041" )){
                 props.setLocation("CYBERPRO Israel");
