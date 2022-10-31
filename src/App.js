@@ -1,7 +1,7 @@
-import {Route,Routes,Navigate} from "react-router-dom"
-import Main from "./core/main/Main";
-import Register from "./core/register/Register"
-import Login from "./core/login/Login";
+// import {Route,Routes,Navigate} from "react-router-dom"
+// import Main from "./core/main/Main";
+// import Register from "./core/register/Register"
+// import Login from "./core/login/Login";
 import ParentApp from "./core/parent/Parent"
 import ChildApp from "./core/child/Child"
 import "./app.css"
